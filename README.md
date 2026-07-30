@@ -1,128 +1,115 @@
-﻿# ⁺˚⋆｡°🍄₊ShroomVenture⁺˚⋆｡°🍄₊
+<h1 align="center">⁺˚⋆｡°🍄₊ ShroomVenture ₊🍄°｡⋆˚⁺</h1>
 
-A 2d Platformer game developed with Unity, Aseprite and C#.
+<p align="center">
+  <em>A 2D platformer about a curious pink piglet lost in a dreamlike world of mushrooms.</em>
+</p>
 
-Demo currently avilable on https://xinyidou.itch.io/shroomventure.
+<p align="center">
+  <img src="https://img.shields.io/badge/Unity-2D-000?logo=unity&logoColor=white" alt="Unity">
+  <img src="https://img.shields.io/badge/C%23-scripting-239120?logo=csharp&logoColor=white" alt="C#">
+  <img src="https://img.shields.io/badge/Pixel%20Art-Aseprite-7D5FFF" alt="Aseprite">
+  <img src="https://img.shields.io/badge/status-in%20development-orange" alt="Status">
+</p>
 
+<p align="center">
+  <a href="https://xinyidou.itch.io/shroomventure">🎮 <strong>Play the demo on itch.io</strong></a>
+</p>
 
-</br>
+---
 
-# The Story
+## 📖 The Story
 
-a curious pink piglet stumbles upon a strange, dreamlike world filled with mushrooms and enemies. The piglet must collect ordinary mushrooms and special ones that unlock unique skins/abilities while navigating a series of challenging platform puzzles. The ultimate goal is to find a way back home by unraveling the mysteries of this surreal world. Along the way, the piglet encounters various terrains, each with its own challenges and wonders, testing both wit and agility. The journey is a blend of exploration, discovery, and the quest to return to the familiar world left behind.
+A curious pink piglet stumbles upon a strange, dreamlike world filled with mushrooms and
+enemies. The piglet must collect ordinary mushrooms — and special ones that unlock unique
+skins and abilities — while navigating a series of challenging platform puzzles.
 
+The ultimate goal is to find a way back home by unraveling the mysteries of this surreal
+world. Along the way, the piglet encounters various terrains, each with its own challenges
+and wonders, testing both wit and agility. The journey is a blend of exploration,
+discovery, and the quest to return to the familiar world left behind.
 
-</br>
+## 🗺️ Levels
 
-# Levels
+Currently there are **3 levels**, with more under development.
 
-Currently there are only 3 levels. More levels are under development.
+<p align="center">
+  <img src="ReadMeAssets/Level1.png" width="30%" alt="Level 1">
+  <img src="ReadMeAssets/Level2.png" width="30%" alt="Level 2">
+  <img src="ReadMeAssets/Level3.png" width="30%" alt="Level 3">
+</p>
 
-![Level1](ReadMeAssets/Level1.png) ![Level2](ReadMeAssets/Level2.png) ![Level3](ReadMeAssets/Level3.png)
+## 🐷 Characters
 
-</br>
+For now, the main playable character is **piglet**. More characters are under development.
 
-# Characters
+<p align="center">
+  <img src="ReadMeAssets/Character Selection.gif" width="600" alt="Character Selection">
+</p>
 
-For now, the main playable character is `piglet`. More characters are under development.
+## 🎮 Abilities & Controls
 
-![alt text](<ReadMeAssets/Character Selection.gif>)
+| Ability | Control | Description |
+|---------|---------|-------------|
+| **Jump** | `Space` | Jump |
+| **Double Jump** | `Space` ×2 | Jump twice; refreshes on touching ground |
+| **Wall Jump** | *automatic* | Grab and leap off a wall in the opposite direction |
+| **Wall Slide** | `Down` (on wall) | Slide down faster |
+| **Kill Enemies** | *step on them* | Stomp enemies to defeat them |
+| **Collect Mushrooms** | *jump on them* | Collect mushrooms scattered through the level |
+| **Checkpoints** | *touch to activate* | Respawn at the last activated checkpoint on death |
 
-# Abilities & Controls
+<details>
+<summary><strong>▶️ See it in action (click to expand the GIFs)</strong></summary>
 
-Below are some game mechanisms, player ability and how to control.
-</br>
+### Jump
+![Jump](ReadMeAssets/Jump.gif)
 
-## Jump
+### Double Jump
+![Double Jump](<ReadMeAssets/Double Jump.gif>)
 
-Press `Space` to jump.
+### Wall Jump
+![Wall Jump](<ReadMeAssets/Wall Jump.gif>)
 
-![alt text](ReadMeAssets/Jump.gif)
+### Wall Slide
+![Wall Slide](<ReadMeAssets/Quick Slide.gif>)
 
-## Double Jump
+### Killing Enemies
+![Killing Enemies](<ReadMeAssets/Killing Enemies.gif>)
 
-Press `Space`x2 to jump twice. Double jump status will refresh when the player touches the ground.
+### Collecting Mushrooms
+![Collectibles](ReadMeAssets/Collectibles.gif)
+![Collect Mushrooms](<ReadMeAssets/Collect Mushrooms.gif>)
 
-![alt text](<ReadMeAssets/Double Jump.gif>)
+### Checkpoints & Respawn
+![Activate Checkpoint](<ReadMeAssets/Activate Checkpoint.gif>)
+![Respawn at checkpoint](<ReadMeAssets/Respawn at checkpoint.gif>)
 
-## Wall Jump
+</details>
 
-Automatically grab and jump towards an opposite direction when jumping onto a wall. 
+## 🛠️ Development Log
 
-![alt text](<ReadMeAssets/Wall Jump.gif>)
+**Design & Art**
+- Created pixel art assets using **Aseprite** and CC0 assets from the **Unity Asset Store** — characters, terrain tiles, enemies, and environmental elements
 
-## Wall Slide
+**Development**
+- Implemented core gameplay mechanics in **Unity** and **C#** — 2D platforming, collectibles, and puzzle-solving (in progress)
+- Built the main character's movement, terrain interaction, and skin-unlocking through collecting unique mushrooms
 
-When on the wall, press `Down` to slide faster.
+**Level Design**
+- Designed and integrated terrains with distinct visual styles and challenges for a cohesive, immersive experience
 
-![alt text](<ReadMeAssets/Quick Slide.gif>)
+**Testing & Refinement**
+- Iteratively tested and refined character controls, puzzle difficulty, and visual polish
 
-## Killing Enemies
+## ⚠️ Still Under Development
 
-Step on enemies to kill them.
+- 🎥 **Camera Following** — smooth dynamic camera that tracks the player across terrains
+- 💾 **Save System** — record progress and resume from specific points
+- 🔊 **Audio SFX** — sound effects to deepen immersion
+- 🎮 **New Input System & Gamepad Support** — Unity's new input system + controller support
+- 📱 **Mobile Compatibility** — optimized touchscreen gameplay and controls
+````
 
-![alt text](<ReadMeAssets/Killing Enemies.gif>)
+---
 
-## Collecting Mushrooms
-
-Jump on the mushrooms to collect them.
-
-![alt text](ReadMeAssets/Collectibles.gif)
-
-![alt text](<ReadMeAssets/Collect Mushrooms.gif>) 
-
-## Checkpoints and Respawn
-
-Checkpoint will activate once player touches it. And when player dies, they will respawn at the latest checkpoint they've activated.
-
-![alt text](<ReadMeAssets/Activate Checkpoint.gif>)
-![alt text](<ReadMeAssets/Respawn at checkpoint.gif>)
-
-
-</br>
-
-# Developement Log
-
-
-## Design & Art:
-
-- Created pixel art assets using **Aseprite** and cc0 assets from **Unity Asset Store**, including characters, terrain tiles, enemies, and environmental elements.
-
-## Development:
-
-- Implemented core gameplay mechanics using **Unity** and **C#**, focusing on 2D platforming, collectibles, and puzzle-solving elements(currently under development).
-
-- Developed the main character's movement, interaction with terrain, and the unlocking of special skins through collecting unique mushrooms.
-Level Design:
-
-- Designed and integrated different terrains with distinct visual styles and challenges, ensuring a cohesive and immersive gameplay experience.
-
-## Testing & Refinement:
-
-- Iteratively tested gameplay mechanics, refining character controls, puzzle difficulty, and visual elements to ensure a polished final product.
-
-</br>
-</br>
-
-# ⚠️Still Under Development⚠️
-
-## Camera Following:
-
-- Implementing dynamic camera movement to follow the player character smoothly throughout different terrains.
-
-## Save System:
-
-- Developing a save feature that allows players to record their progress and resume from specific points.
-
-## Audio SFX:
-
-- Creating and integrating sound effects to enhance the immersive experience of the game world.
-
-## New Input System and Gamepad Support:
-
-- Adding compatibility with Unity's new input system and ensuring support for gamepad controllers.
-
-
-## Mobile Compatibility:
-
-- Optimizing the game for mobile devices, ensuring smooth gameplay and controls on touchscreens.
+Copyright © Xinyi Dou
